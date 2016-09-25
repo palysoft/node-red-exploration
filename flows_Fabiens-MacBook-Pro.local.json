@@ -1,0 +1,45 @@
+[
+    {
+        "id": "94f30a71.a89ac8",
+        "type": "tab",
+        "label": "Flow 1"
+    },
+    {
+        "id": "5c8d0c88.6d3f54",
+        "type": "http in",
+        "z": "94f30a71.a89ac8",
+        "name": "",
+        "url": "/hello",
+        "method": "get",
+        "swaggerDoc": "",
+        "x": 147.5,
+        "y": 117,
+        "wires": [
+            [
+                "bd8109c3.013258",
+                "fbcd408b.b1a1c"
+            ]
+        ]
+    },
+    {
+        "id": "fbcd408b.b1a1c",
+        "type": "debug",
+        "z": "94f30a71.a89ac8",
+        "name": "",
+        "active": true,
+        "console": "false",
+        "complete": "false",
+        "x": 439.5,
+        "y": 136,
+        "wires": []
+    },
+    {
+        "id": "bd8109c3.013258",
+        "type": "http response",
+        "z": "94f30a71.a89ac8",
+        "name": "",
+        "x": 417.5,
+        "y": 85,
+        "wires": []
+    }
+]

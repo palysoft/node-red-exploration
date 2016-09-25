@@ -1,0 +1,23 @@
+{
+  "name": "node-red-exploration",
+  "version": "1.0.0",
+  "description": "various exploration of the node-red platform",
+  "main": "node-red.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./node-red.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palysoft/node-red-exploration.git"
+  },
+  "author": "Fabien Papleux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/palysoft/node-red-exploration/issues"
+  },
+  "homepage": "https://github.com/palysoft/node-red-exploration#readme",
+  "dependencies": {
+    "node-red": "^0.14.6"
+  }
+}
